@@ -29,3 +29,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 voy a agregar una linea en el readme de prueba para poder comenzar esta mierda
 
 YO QUIERO UN ENSAYO
+
+LINEA DOS POR FARID
