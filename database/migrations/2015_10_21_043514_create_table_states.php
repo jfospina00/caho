@@ -5,23 +5,18 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateTableStates extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
-        //
+        Schema::create('states', function ($table) {
+            $table->increments('id');
+            $table->string('name_state');
+            $table->text('description_state');
+        });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
-        //
+        Schema::drop('states');
     }
 }
