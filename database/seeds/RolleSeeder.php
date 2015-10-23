@@ -4,13 +4,17 @@ use Illuminate\Database\Seeder;
 
 class RolleSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
+
     public function run()
     {
-        //
+        DB::table('rolles')->insert([
+            'name_role' => "Estudiante",
+        ]);
+        DB::table('rolles')->insert([
+            'name_role' => "Docente",
+        ]);
+        DB::table('rolles')->insert([
+            'name_role' => "Padre de Familia",
+        ]);
     }
 }

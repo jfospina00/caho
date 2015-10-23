@@ -17,9 +17,9 @@ class CreateTableStudents extends Migration
             $table->string('name');
             $table->string('last_name');
             $table->string('address');
-            $table->string('telephone');
-            $table->string('mobile');
-            $table->string('date_born');
+            $table->double('telephone');
+            $table->double('mobile');
+            $table->date('date_born');
             $table->string('email');
         });
     }
