@@ -15,6 +15,8 @@ class CreateTableAsignature extends Migration
          Schema::create('asignatures', function ($table) {
             $table->increments('id');
             $table->string('name_asignature');
+            $table->timestamps();
+            
         });
     }
 
