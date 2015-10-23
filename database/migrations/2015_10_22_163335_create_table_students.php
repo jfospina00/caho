@@ -21,6 +21,7 @@ class CreateTableStudents extends Migration
             $table->double('mobile');
             $table->date('date_born');
             $table->string('email');
+            $table->timestamps();
         });
     }
 

@@ -8,13 +8,13 @@ class RolleSeeder extends Seeder
     public function run()
     {
         DB::table('rolles')->insert([
-            'name_role' => "Estudiante",
+            'name_roll' => "Estudiante",
         ]);
         DB::table('rolles')->insert([
-            'name_role' => "Docente",
+            'name_roll' => "Docente",
         ]);
         DB::table('rolles')->insert([
-            'name_role' => "Padre de Familia",
+            'name_roll' => "Padre de Familia",
         ]);
     }
 }
