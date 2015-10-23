@@ -16,6 +16,7 @@ class CreateTableRolles extends Migration
             $table->increments('id');
             $table->string('name_roll');
             $table->text('description_roll');
+            $table->timestamps();
         });
     }
 
