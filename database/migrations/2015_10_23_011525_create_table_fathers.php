@@ -14,6 +14,7 @@ class CreateTableFathers extends Migration
     {
         Schema::create('fathers', function ($table) {
             $table->increments('id');
+            $table->integer('document');
             $table->string('name');
             $table->string('last_name');
             $table->string('address');
