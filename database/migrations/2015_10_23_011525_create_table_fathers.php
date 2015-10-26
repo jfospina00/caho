@@ -22,6 +22,8 @@ class CreateTableFathers extends Migration
             $table->double('mobile');
             $table->date('date_born');
             $table->string('email');
+            $table->integer('user_id');
+            
             $table->timestamps();
         });
     }

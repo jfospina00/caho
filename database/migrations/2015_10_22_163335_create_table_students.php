@@ -14,6 +14,7 @@ class CreateTableStudents extends Migration
     {
         Schema::create('students', function ($table) {
             $table->increments('id');
+            $table->integer('document');
             $table->string('name');
             $table->string('last_name');
             $table->string('address');
@@ -21,6 +22,7 @@ class CreateTableStudents extends Migration
             $table->double('mobile');
             $table->date('date_born');
             $table->string('email');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
