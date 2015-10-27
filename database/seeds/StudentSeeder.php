@@ -12,12 +12,14 @@ class StudentSeeder extends Seeder
     public function run()
     {
         DB::table('students')->insert([
-            'name'       => "Homero",
-            "last_name"  => "Simsomp",
+            'name'       => "Barth",
+            "last_name"  => "Simpson",
+            'document'   => "12345",
             "address"    => "siempre viva",
-            "telephone"  =>"8847696",
-            "date_born"  => "3215353548",
-            "email"      => "io@homero.me",
+            "telephone"  => "8847696",
+            "telephone"  => "3215353548",
+            "date_born"  => "1996-12-07",
+            "email"      => "io@barth.me",
         ]);
     }
 }

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class TeacherSeeder extends Seeder
+class FatherSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,15 +11,17 @@ class TeacherSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('teachers')->insert([
-            'name'       => "Homero",
+        DB::table('fathers')->insert([
+            'name'       => "marge",
             "last_name"  => "Simpson",
-            'document'   => "7890123",
+            'document'   => "45678",
             "address"    => "siempre viva",
             "telephone"  => "8847696",
             "mobile"     => "3215353548",
-            "date_born"  => "1986-08-12",
-            "email"      => "io@homero.me",
-        ]);
+            "date_born"  => "1987-02-12",
+            "email"      => "io@marge.me",
+            "user_id"    => "303453463",
+           ]);
+        
     }
 }
