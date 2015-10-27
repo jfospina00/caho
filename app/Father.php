@@ -17,3 +17,6 @@ class Father extends Model
     	return $this->hasMany('App\Student', 'id');
     }
 }
+public function hijo(){
+	return $this->hasOne('App\Student');
+}

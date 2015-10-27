@@ -22,3 +22,6 @@ class Student extends Model
     	return $this->hasOne('App\Father');
     }
 }
+public function padre(){
+	return $this->belongsTo('App\Father');
+}
