@@ -9,6 +9,8 @@ return array(
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateTableAsignature' => $baseDir . '/database/migrations/2015_10_21_052314_create_table_asignature.php',
     'CreateTableFathers' => $baseDir . '/database/migrations/2015_10_23_011525_create_table_fathers.php',
+    'CreateTableNotes' => $baseDir . '/database/migrations/2015_10_27_024844_create_table_notes.php',
+    'CreateTableObservations' => $baseDir . '/database/migrations/2015_10_27_030849_create_table_observations.php',
     'CreateTableRolles' => $baseDir . '/database/migrations/2015_10_21_051252_create_table_rolles.php',
     'CreateTableStates' => $baseDir . '/database/migrations/2015_10_21_043514_create_table_states.php',
     'CreateTableStudents' => $baseDir . '/database/migrations/2015_10_22_163335_create_table_students.php',

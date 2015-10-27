@@ -23,7 +23,7 @@ class CreateTableFathers extends Migration
             $table->date('date_born');
             $table->string('email');
             $table->integer('user_id');
-            
+            $table->integer('student_id');
             $table->timestamps();
         });
     }

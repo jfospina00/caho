@@ -13,3 +13,6 @@ class Father extends Model
     protected $fillable = ['name','last_name','address', 'telephone', 'mobile', 'date_born', 'email'];
 
 }
+public function hijo(){
+	return $this->hasOne('App\Student');
+}

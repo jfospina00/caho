@@ -13,3 +13,6 @@ class Student extends Model
     protected $fillable = ['name','last_name','address', 'telephone', 'mobile', 'date_born', 'email'];
 
 }
+public function padre(){
+	return $this->belongsTo('App\Father');
+}
