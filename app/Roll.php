@@ -11,4 +11,9 @@ class Roll extends Model
     protected $guarded = ['id'];
 
     protected $fillable = ['name_roll','description_roll'];
+
+    public function state()
+    {
+    	return $this->belongsTo('App\State');
+    }
 }

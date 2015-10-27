@@ -11,4 +11,14 @@ class Teacher extends Model
     protected $guarded = ['id'];
 
     protected $fillable = ['name','last_name','address', 'telephone', 'mobile', 'date_born', 'email'];
+
+    public function user()
+    {
+        return $this->hasOne('App\user');
+    }
+
+    public function asignature()
+    {
+    	return $this->belongsTo('App\Asignature');
+    }
 }

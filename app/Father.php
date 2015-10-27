@@ -12,4 +12,8 @@ class Father extends Model
 
     protected $fillable = ['name','last_name','address', 'telephone', 'mobile', 'date_born', 'email'];
 
+    public function student()
+    {
+    	return $this->hasMany('App\Student', 'id');
+    }
 }

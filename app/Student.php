@@ -12,4 +12,13 @@ class Student extends Model
 
     protected $fillable = ['name','last_name','address', 'telephone', 'mobile', 'date_born', 'email'];
 
+    public function user()
+    {
+    	return $this->belongsTo('App\User');
+    }
+
+    public function father()
+    {
+    	return $this->hasOne('App\Father');
+    }
 }

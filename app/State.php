@@ -12,4 +12,8 @@ class State extends Model
 
     protected $fillable = ['name_state','description_state'];
 
+    public function User()
+    {
+    	return $this->belongsTo('App\User');
+    }
 }

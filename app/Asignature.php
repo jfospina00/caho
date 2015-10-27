@@ -11,4 +11,9 @@ class Asignature extends Model
     protected $guarded = ['id'];
 
     protected $fillable = ['name_asignature'];
+
+    public function teacher()
+    {
+    	return $this->hasOne('App\Teacher');
+    }
 }

@@ -32,4 +32,24 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    public function state()
+    {
+        return $this->hasOne('App\State');
+    }
+
+    public function student()
+    {
+        return $this->belongsTo('App\Student');
+    }
+
+    public function father()
+    {
+        return $this->belongsTo('App\Father');
+    }
+
+    public function teacher()
+    {
+        return $this->belongsTo('App\Teacher');
+    }
 }
