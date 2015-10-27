@@ -17,7 +17,7 @@ class StudentSeeder extends Seeder
             'document'   => "12345",
             "address"    => "siempre viva",
             "telephone"  => "8847696",
-            "telephone"  => "3215353548",
+            "mobile"     => "3215353548",
             "date_born"  => "1996-12-07",
             "email"      => "io@barth.me",
         ]);

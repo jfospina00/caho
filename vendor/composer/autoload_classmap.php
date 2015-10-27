@@ -515,6 +515,7 @@ return array(
     'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => $vendorDir . '/sebastian/recursion-context/src/InvalidArgumentException.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Resources/stubs/SessionHandlerInterface.php',
+    'StateSeeder' => $baseDir . '/database/seeds/StateSeeder.php',
     'StudentSeeder' => $baseDir . '/database/seeds/StudentSeeder.php',
     'TeacherSeeder' => $baseDir . '/database/seeds/TeacherSeeder.php',
     'TestCase' => $baseDir . '/tests/TestCase.php',
